@@ -3,10 +3,13 @@ body {
 }
 h1 {
   color: white;
+  text-align: center;
 }
 p {
   color: white;
+  text-align: center;
 }
+
 h3 {
   color: white;
 }
@@ -15,10 +18,22 @@ li {
 }
 .botoes {
   color: black;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
 .btnstart {
   background-color: green;
+  border-color: darkgreen;
+  border-style: inset;
 }
 .btnstop {
   background-color: red;
+  border-color: darkred;
+  border-style: outside;
+}
+.timer {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
